@@ -18,4 +18,4 @@ def update_text(text):
     for word in text:
         if "C?" in word:
             characters.append(word.replace("C?", ""))
-""
+    
