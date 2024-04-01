@@ -1,0 +1,26 @@
+# Configuration for linting markdown
+# see https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+
+# MD013/line-length - Line length
+MD013:
+  # Number of characters
+  # Allow standard body text to be longer
+  line_length: 1000
+  # Number of characters for headings
+  # As Black setting
+  heading_line_length: 88
+  # Number of characters for code blocks
+  # As Black setting
+  code_block_line_length: 88
+  # Include code blocks
+  code_blocks: true
+  # Include tables
+  tables: true
+  # Include headings
+  headings: true
+  # Include headings
+  headers: true
+  # Strict length checking
+  strict: false
+  # Stern length checking
+  stern: false
